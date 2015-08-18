@@ -31,7 +31,7 @@ public class Game extends ApplicationAdapter implements InputProcessor {
 
 		camera = new OrthographicCamera();
 		camera.setToOrtho(false,w/1.08f,h/1.08f);
-		camera.position.set(5004, 500, 0); //by default camera position on (0,0,0)
+		camera.position.set(500, 500, 0); //by default camera position on (0,0,0)
 		camera.update();
 
 		tiledMap = new TmxMapLoader().load("fondoCuadriculado.tmx");
