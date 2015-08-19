@@ -76,6 +76,8 @@ public class Game extends ApplicationAdapter implements InputProcessor {
 		return false;
 	}
 
+	//ddddd
+
 	@Override
 	public boolean keyTyped(char character) {
 
