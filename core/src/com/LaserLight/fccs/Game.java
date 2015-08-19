@@ -67,7 +67,7 @@ public class Game extends ApplicationAdapter implements InputProcessor {
 	}
 	@Override
 	public boolean keyDown(int keycode) {
-		return e;
+		return false;
 	}
 
 	@Override
